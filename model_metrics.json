@@ -1,0 +1,33 @@
+{
+  "model_name": "Random Forest Regressor",
+  "n_estimators": 150,
+  "max_depth": 12,
+  "features": [
+    "Population",
+    "Per Capita Water Use (Liters per Day)",
+    "Agricultural Water Use (%)",
+    "Industrial Water Use (%)",
+    "Household Water Use (%)",
+    "Rainfall Impact (Annual Precipitation in mm)",
+    "Groundwater Depletion Rate (%)"
+  ],
+  "target": "Total Water Consumption (Billion Cubic Meters)",
+  "mae": 77.49,
+  "rmse": 101.1,
+  "r2_score": -0.0702,
+  "full_dataset_r2": 0.5466,
+  "full_dataset_mae": 49.25,
+  "full_dataset_rmse": 64.63,
+  "train_samples": 400,
+  "test_samples": 100,
+  "total_samples": 500,
+  "feature_importances": {
+    "Population": 0.0996,
+    "Per Capita Water Use (Liters per Day)": 0.1327,
+    "Agricultural Water Use (%)": 0.152,
+    "Industrial Water Use (%)": 0.1668,
+    "Household Water Use (%)": 0.1594,
+    "Rainfall Impact (Annual Precipitation in mm)": 0.1274,
+    "Groundwater Depletion Rate (%)": 0.1621
+  }
+}
